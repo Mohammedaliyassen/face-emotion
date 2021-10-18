@@ -1,0 +1,162 @@
+body{
+    background-color:darkslategray;
+}
+
+.father{
+    background-color: #1c1c685e;
+    width: 400px;
+    height: 500px;
+    margin: 200px 35%;
+    position: absolute;
+    border-radius: 20px;
+}
+.ident{
+    width: 200px;
+    height: 200px;
+    background-color: #0e080854;
+    margin: auto;
+    position: relative;
+    top: -100px; 
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+.contant{
+    align-content: center;
+    color: aliceblue;
+}
+.contant .put {
+    width: 85%; 
+    height: 40px;
+    margin: 20px;
+    display: block;
+    border: 0;
+    outline: 0;border-radius: 5px;
+}
+.contant .put:hover {
+    width: 85%; 
+    height: 40px;
+    margin: 20px;
+    display: block;
+    border: 0;
+    outline: 0;border-radius: 5px;
+    
+}
+.contant input {
+    margin: 0 0 0 20px;
+}
+
+.face{
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+    margin: 30px auto;
+    border-radius: 50%;
+}
+.face .eye {
+    width: 20px;
+    height: 20px;
+    background-color: aqua;
+    margin: 50px 20px;
+    position: relative;
+    left: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.face .eye::before{
+    visibility: visible;
+content: "";
+position:absolute;
+top: -20px;
+width: 20px;
+height: 20px;
+background-color: yellow;
+}
+.face svg{
+    margin: auto 5px;
+    animation: eyes 5s 2 ease;
+    animation-play-state: paused;
+}
+.face .mouth{
+    width: 50px;
+    height: 20px;
+    background-color: #bf0000;
+    margin: -10px 50px;
+    border-radius: 0px 0px 20px 20px;
+    overflow: hidden;
+}
+.face .mouth::after{
+    content: ".......";
+    width: 50px;
+    height: 20px;
+    background-color: red;
+    margin: 10px;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+}
+@keyframes eyes {
+   10%{ 
+        margin: auto 5px;
+    }
+    15%{
+        margin: auto 4px;
+    }
+    20%{
+        margin: auto 2px;
+    }
+    25%{
+        margin: auto 1px;
+    }
+    30%{
+        margin: auto 2px;
+    }
+    35%{
+        margin: auto 3px;
+    }
+    40%{
+        margin: auto 4px;
+    }
+    45%{
+        margin: auto 5px;
+    }
+    50%{
+        margin: auto 6px;
+    }
+    55%{
+        margin: auto 7px;
+    }
+    60%{
+        margin: auto 8px;
+    }
+    65%{
+        margin: auto 9px;
+    }
+    70%{
+        margin: auto 10px;
+    }
+    75%{
+        margin: auto 9px;
+    }
+    80%{
+        margin: auto 8px;
+    }
+    85%{
+        margin: auto 7px;
+    }
+    90%{
+        margin: auto 6px;
+    }
+    95%{
+        margin: auto 5px;
+    }
+    100%{
+        margin: auto 5px;
+    }
+}
+
+
+
+
+
+
